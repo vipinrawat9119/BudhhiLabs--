@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Buddhi Labs — Problem-Solving School, India</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,400;0,500;0,600;1,400&family=Hind:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <nav class="wrap">
+    <div class="brand">
+      <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="19" stroke="currentColor" stroke-width="1.4"/><path d="M13 14 H27 M13 20 H23 M13 26 H27" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      Buddhi Labs <span class="hindi">बुद्धि</span>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">Menu</button>
+    <ul id="navList">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#objective">Objective</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Programs</a></li>
+      <li><a href="#results">Results</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HOMEPAGE / HERO -->
+  <section class="hero" id="home">
+    <div class="wrap">
+      <div>
+        <p class="hero-eyebrow">A problem-solving school for grades 6–12, across India</p>
+        <h1 class="margin-rule">We don't teach answers. We teach how to get stuck, and get out.</h1>
+        <p class="lede">Buddhi Labs runs live, small-batch classes in mathematical reasoning, competitive coding, and logical puzzles — built for students preparing for Olympiads, JEE/NEET foundation, and CAT, but useful for anyone who wants to think more clearly.</p>
+        <div class="cta-row">
+          <a class="btn btn-solid" href="#services">See this term's batches</a>
+          <a class="btn btn-ghost" href="#contact">Book a free trial class</a>
+        </div>
+        <div class="hero-stats">
+          <div><div class="num">40,000+</div><div class="lab">students taught since 2016</div></div>
+          <div><div class="num">18</div><div class="lab">Indian cities, plus online</div></div>
+          <div><div class="num">1:12</div><div class="lab">mentor to student ratio</div></div>
+        </div>
+      </div>
+      <div class="hero-panel">
+        <span class="panel-label">Sample problem — Batch: Logic Lab, Class 9</span>
+        <svg viewBox="0 0 300 220" fill="none">
+          <rect x="1" y="1" width="298" height="218" stroke="#1F3A5F" stroke-width="1" fill="none"/>
+          <text x="18" y="34" font-family="Zilla Slab, serif" font-size="14" fill="#152840">Q7. A tank is filled by two</text>
+          <text x="18" y="54" font-family="Zilla Slab, serif" font-size="14" fill="#152840">pipes in 12 and 15 hours.</text>
+          <text x="18" y="74" font-family="Zilla Slab, serif" font-size="14" fill="#152840">A leak empties it in 20 hrs.</text>
+          <text x="18" y="94" font-family="Zilla Slab, serif" font-size="14" fill="#B6473F">Find the time to fill it</text>
+          <text x="18" y="114" font-family="Zilla Slab, serif" font-size="14" fill="#B6473F">with all three open.</text>
+          <line x1="18" y1="130" x2="282" y2="130" stroke="#C3D9E8" stroke-width="1.5"/>
+          <path d="M18 155 h50 M18 170 h90 M18 185 h70" stroke="#3F6B4F" stroke-width="2" stroke-linecap="round"/>
+          <text x="18" y="208" font-family="Hind, sans-serif" font-size="12" fill="#5B5646">worked through step-by-step, not skipped</text>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- OBJECTIVE -->
+  <section class="objective" id="objective">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>What we're actually trying to build</h2>
+        <span class="tag">objective</span>
+      </div>
+      <p class="objective-lede">India has no shortage of students who can memorise a formula. We exist to build the smaller, rarer skill — sitting with a problem you don't immediately recognise, and working it out anyway.</p>
+      <div class="objective-grid">
+        <div>
+          <span class="qnum">01</span>
+          <h3>Reasoning over recall</h3>
+          <p>Every class is built around problems the student hasn't seen before, so the method — not the memory — does the work.</p>
+        </div>
+        <div>
+          <span class="qnum">02</span>
+          <h3>Struggle, on purpose</h3>
+          <p>Mentors let students sit with a hard problem for a few minutes before stepping in. Getting unstuck is the actual lesson.</p>
+        </div>
+        <div>
+          <span class="qnum">03</span>
+          <h3>One method, many exams</h3>
+          <p>The same reasoning skills we build carry across Olympiads, board exams, JEE/NEET, and later, CAT and campus placements.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT US -->
+  <section class="about" id="about">
+    <div class="wrap">
+      <div class="about-figure">
+        <span class="figure-label">Founded in a Koramangala classroom, 2016</span>
+        <svg viewBox="0 0 320 220" fill="none">
+          <rect x="1" y="1" width="318" height="218" stroke="#1F3A5F" stroke-width="1" fill="none"/>
+          <circle cx="80" cy="90" r="40" stroke="#1F3A5F" stroke-width="1.6"/>
+          <path d="M60 90 h40 M80 70 v40" stroke="#B6473F" stroke-width="1.6"/>
+          <path d="M170 60 L210 60 L230 90 L210 120 L170 120 L150 90 Z" stroke="#3F6B4F" stroke-width="1.6" fill="none"/>
+          <line x1="16" y1="175" x2="304" y2="175" stroke="#C3D9E8" stroke-width="2"/>
+          <text x="16" y="200" font-family="Hind, sans-serif" font-size="12" fill="#5B5646">geometry, graph theory, and everything between</text>
+        </svg>
+      </div>
+      <div class="about-copy">
+        <h2 style="font-size:clamp(1.7rem,3vw,2.2rem); margin-bottom:22px;">About Buddhi Labs</h2>
+        <p>Buddhi Labs began in 2016 as a single weekend batch in a borrowed classroom in Koramangala, Bengaluru, started by three engineers who kept meeting brilliant students who'd been trained to solve familiar problems fast, but froze on anything new.</p>
+        <p>We built our own problem sets from scratch — pulling from Math Olympiad traditions, competitive programming judges, and old-school puzzle books — and taught them the way a good mentor would: in small batches, on a whiteboard, with time to think.</p>
+        <p>Today we run live batches — online and in person — across 18 Indian cities, still writing our own problems, and still capping every batch at fifteen students.</p>
+        <div class="city-strip">
+          <span>Bengaluru</span><span>Delhi NCR</span><span>Mumbai</span><span>Pune</span>
+          <span>Hyderabad</span><span>Chennai</span><span>Kolkata</span><span>Online, PAN-India</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES / PROGRAMS -->
+  <section class="programs" id="services">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>This term's batches</h2>
+        <span class="tag">programs</span>
+      </div>
+      <div class="catalog">
+        <div class="course">
+          <div class="code">PS-601</div>
+          <div class="cname">Math Olympiad Foundation<small>Number theory, combinatorics, and proof-writing for Classes 6–8</small></div>
+          <div class="cmeta">10 weeks · Sat mornings · Online + Bengaluru</div>
+          <div class="cprice">₹8,500</div>
+        </div>
+        <div class="course">
+          <div class="code">CP-902</div>
+          <div class="cname">Competitive Programming Lab<small>Data structures, algorithms, and weekly rated contests</small></div>
+          <div class="cmeta">12 weeks · Tue & Thu evenings · Online</div>
+          <div class="cprice">₹11,000</div>
+        </div>
+        <div class="course">
+          <div class="code">LR-450</div>
+          <div class="cname">Logical Reasoning & Puzzles<small>Pattern recognition, deduction, and lateral-thinking problems</small></div>
+          <div class="cmeta">8 weeks · Sun mornings · All cities</div>
+          <div class="cprice">₹6,200</div>
+        </div>
+        <div class="course">
+          <div class="code">JF-1110</div>
+          <div class="cname">JEE/NEET Foundation — Problem Solving<small>Applying Class 11 concepts to unfamiliar, mixed-topic problems</small></div>
+          <div class="cmeta">16 weeks · Mon, Wed, Fri · Delhi NCR + Online</div>
+          <div class="cprice">₹15,500</div>
+        </div>
+        <div class="course">
+          <div class="code">CQ-1200</div>
+          <div class="cname">CAT Quant Bootcamp<small>Speed, accuracy, and problem-selection strategy for working professionals</small></div>
+          <div class="cmeta">6 weeks · Weekend intensive · Online</div>
+          <div class="cprice">₹9,800</div>
+        </div>
+        <div class="course">
+          <div class="code">PS-800</div>
+          <div class="cname">Advanced Olympiad Track<small>Regional and national-level Olympiad preparation, by invitation</small></div>
+          <div class="cmeta">Full year · Weekly · Bengaluru + Online</div>
+          <div class="cprice">₹28,000</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ADDITIONAL SECTION 1: HOW ENROLLMENT WORKS -->
+  <section id="how">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>How a batch runs</h2>
+        <span class="tag">enrollment</span>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <span class="snum">1</span>
+          <h3>Take a free trial class</h3>
+          <p>Sit in on a real batch, online or at a centre near you, before you pay for anything.</p>
+        </div>
+        <div class="step">
+          <span class="snum">2</span>
+          <h3>Take a placement problem set</h3>
+          <p>A short, ungraded set of problems helps us place you in a batch that will actually stretch you.</p>
+        </div>
+        <div class="step">
+          <span class="snum">3</span>
+          <h3>Attend weekly, solve daily</h3>
+          <p>Live classes plus a short daily problem sent to your phone, reviewed by a mentor the next session.</p>
+        </div>
+        <div class="step">
+          <span class="snum">4</span>
+          <h3>Sit a term-end contest</h3>
+          <p>Every batch closes with a timed contest against your own batchmates — the real test of what stuck.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ADDITIONAL SECTION 2: RESULTS -->
+  <section class="results" id="results">
+    <div class="wrap">
+      <div>
+        <blockquote>"I joined Logic Lab because my son was scared of word problems. Six months on, he explains them to his cousins."</blockquote>
+        <cite>— Meenakshi R., parent, Pune batch</cite>
+      </div>
+      <div class="result-numbers">
+        <div><div class="num">312</div><div class="lab">students at INMO / RMO in 2025</div></div>
+        <div><div class="num">1,140</div><div class="lab">Codeforces-rated students</div></div>
+        <div><div class="num">89%</div><div class="lab">parents who re-enroll a second child</div></div>
+        <div><div class="num">18</div><div class="lab">cities with a physical centre</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <div class="contact-info">
+        <h2 style="font-size:clamp(1.7rem,3vw,2.2rem); margin-bottom:8px;">Talk to a counsellor</h2>
+        <p style="color:#5B5646; margin-bottom:10px;">Call, write in, or drop by our Bengaluru centre — we'll help you pick the right batch, even if it isn't with us.</p>
+        <dl>
+          <dt>Head office</dt>
+          <dd>3rd Floor, Sona Towers, Koramangala, Bengaluru 560034</dd>
+          <dt>Centre hours</dt>
+          <dd>Mon–Sat, 9:00 AM – 7:00 PM IST</dd>
+          <dt>Phone</dt>
+          <dd>+91 80 4012 6690</dd>
+          <dt>Email</dt>
+          <dd>namaste@buddhilabs.example</dd>
+        </dl>
+      </div>
+      <div>
+        <form id="contactForm">
+          <div class="form-row">
+            <div>
+              <label for="fname">Student / parent name</label>
+              <input id="fname" name="fname" type="text" required>
+            </div>
+            <div>
+              <label for="fphone">Phone number</label>
+              <input id="fphone" name="fphone" type="tel" placeholder="+91" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div>
+              <label for="fcity">City</label>
+              <input id="fcity" name="fcity" type="text" placeholder="e.g. Hyderabad">
+            </div>
+            <div>
+              <label for="finterest">Which batch?</label>
+              <select id="finterest" name="finterest">
+                <option>Math Olympiad Foundation</option>
+                <option>Competitive Programming Lab</option>
+                <option>Logical Reasoning & Puzzles</option>
+                <option>JEE/NEET Foundation</option>
+                <option>CAT Quant Bootcamp</option>
+                <option>Not sure yet</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <label for="fmessage">Anything we should know?</label>
+            <textarea id="fmessage" name="fmessage" placeholder="Class, target exam, or a subject they find difficult."></textarea>
+            <p class="form-note">We call back within one working day.</p>
+          </div>
+          <div>
+            <button type="submit" class="btn btn-solid" style="border:none; cursor:pointer;">Request a callback</button>
+            <p class="form-status" id="formStatus"></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fbrand">Buddhi Labs</div>
+    <div class="fmeta">Koramangala, Bengaluru · est. 2016</div>
+    <div class="flinks">
+      <a href="#home">Home</a>
+      <a href="#services">Programs</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
